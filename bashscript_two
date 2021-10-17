@@ -1,0 +1,2 @@
+#!/bin/bash
+sshpass -p "password" ssh -o StrictHostKeyChecking=no name@$1
