@@ -1,6 +1,6 @@
 # The script for searching mikrotik ip addresses in the file
-#by the active ip address connects via ssh learns 
-#the hostname and writes the active ip and hostname to the file
+#by the active ip address connects via ssh 
+#learns the hostname and writes the active ip and hostname to the file
 #to start bashscript enter ./bashscript text.txt
 #it is necessary to create 3 empty text files, in one it will output all information by ip (text)
 #in the other it will output active ip (text.txt)
