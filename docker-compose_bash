@@ -1,0 +1,10 @@
+#!/bin/bash
+cd /home/servertages/Desktop/git/mysql_project
+name=(`yq eval '.services.*.container_name' docker-compose.>
+image=(`yq eval '.services.*.image' docker-compose.yml`)
+for i in ${!name[@]}; do
+    rr=${name[i]}
+    vv=${image[i]}
+    cc="$rr = $vv"
+    echo $cc
+done
